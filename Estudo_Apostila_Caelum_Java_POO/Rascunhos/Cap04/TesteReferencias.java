@@ -53,7 +53,8 @@ public class TesteReferencias {
 		System.out.println("Saldo de c2 = " + c2.saldo + "\n");
 		
 		if(c2.transferePara(c1, 1000)) {
-			System.out.println("Transferência da conta " + c2.titular + " para a conta " + c1.titular + " realizada com sucesso!");
+			System.out.println("Transferência da conta " + c2.titular + 
+					" para a conta " + c1.titular + " realizada com sucesso!");
 		}
 		else {
 			System.out.println("Conta " + c2.titular + " sem saldo suficiente para transferir.");
