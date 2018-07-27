@@ -2,10 +2,13 @@ package Cap04;
 
 
 public class TestaAlgunsMetodos {
-	
+
 //Capítulo 4.5
-	/*
+	
 	public static void main (String[] args) {
+	}
+	}
+	/*	
 		//criando a conta
 		Conta minhaConta;
 		minhaConta = new Conta();
@@ -20,16 +23,18 @@ public class TestaAlgunsMetodos {
 		//deposita 500
 		minhaConta.deposita(500);
 		System.out.println("Saldo é igual a " + minhaConta.saldo);
+	
 	}
 }
 */
-
+/*
 //Capítulo 4.6
+	
 	public static void main(String[] args) {
 		Conta minhaConta;
 		minhaConta = new Conta();
 		minhaConta.saldo = 1000;
-		
+	*/
 		/*
 		boolean consegui = minhaConta.saca(2000);
 		if (consegui) {
@@ -40,7 +45,7 @@ public class TestaAlgunsMetodos {
 		}
 		*/
 		
-		
+		/*
 		if (minhaConta.saca(200)) {
 			System.out.println("Consegui sacar da minhaConta.");
 		}
@@ -54,4 +59,8 @@ public class TestaAlgunsMetodos {
 		meuSonho.saldo = 15000000;
 				
 		}
-}
+		*/
+
+
+
+

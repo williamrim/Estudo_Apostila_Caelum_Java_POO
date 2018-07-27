@@ -42,6 +42,8 @@ public class TesteReferencias {
 		}
 		*/
 		
+//Capítulo 4.8
+		/*
 		Conta c1 = new Conta();
 		c1.titular = "c1";
 		c1.saldo = 100;
@@ -52,7 +54,7 @@ public class TesteReferencias {
 		System.out.println("Saldo de c1 = " + c1.saldo);
 		System.out.println("Saldo de c2 = " + c2.saldo + "\n");
 		
-		if(c2.transferePara(c1, 1000)) {
+		if(c2.transferePara(c1, 1500)) {
 			System.out.println("Transferência da conta " + c2.titular + 
 					" para a conta " + c1.titular + " realizada com sucesso!");
 		}
@@ -62,5 +64,7 @@ public class TesteReferencias {
 		System.out.println("Saldo de c1 = " + c1.saldo);
 		System.out.println("Saldo de c2 = " + c2.saldo);		
 	}
+	*/
 
+}
 }

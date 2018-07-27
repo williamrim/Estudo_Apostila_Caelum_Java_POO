@@ -53,7 +53,7 @@ class Conta {
 */
 
 //Capítulo 4.7
-
+/*
 class Conta {
 	double salario;
 	int numero;
@@ -73,7 +73,7 @@ class Conta {
 			return true;
 		}
 	}
-	
+*/	
 	/*
 	void transfere(Conta destino, double valor) {
 		this.saldo = this.saldo - valor;
@@ -93,7 +93,9 @@ class Conta {
 		}
 	}
 	*/
-	
+
+/*
+//Capítulo 4.8
 	boolean transferePara(Conta destino, double valor) {
 		if(this.saca(valor)) {
 			destino.deposita(valor);
@@ -104,4 +106,31 @@ class Conta {
 			return false;
 		}
 	}
+*/
+	
+	
+//Capítulo 4.9
+
+/*
+class Conta {
+	int numero = 1234;
+	String titular = "Duke";
+	double saldo = 1000;
+}	
+*/
+
+/*
+class Cliente {
+	String nome;
+	String sobremone;
+	String cpf;
 }
+	
+class Conta {
+	int numero;
+	double saldo;
+	// quando iniciar Conta, o Cliente será iniciado junto.
+	Cliente titular = new Cliente();
+}
+*/
+
