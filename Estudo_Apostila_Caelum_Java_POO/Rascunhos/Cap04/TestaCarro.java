@@ -1,9 +1,11 @@
 package Cap04;
 
+
 //Capítulo 4.10
 
 public class TestaCarro {
 	public static void main (String[] args) {
+	/*	
 		Carro meuCarro;
 		meuCarro = new Carro();
 		meuCarro.cor = "Verde";
@@ -18,5 +20,6 @@ public class TestaCarro {
 		meuCarro.acelera(20);
 		
 		System.out.println("Velocidade atual do meu carro é de " + meuCarro.velocidadeAtual + " km/h.");
-}
+	*/
+	}
 }
