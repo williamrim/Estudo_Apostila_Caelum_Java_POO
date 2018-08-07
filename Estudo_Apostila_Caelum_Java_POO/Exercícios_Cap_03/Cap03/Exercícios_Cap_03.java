@@ -1,6 +1,6 @@
 package Cap03;
 
-public class Rascunho_03 {
+public class Exercícios_Cap_03 {
 
 	//public static void main(String[] args) {
 	

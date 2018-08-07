@@ -1,4 +1,4 @@
-package Cap04_12_04;
+package e_12_04;
 
 public class Conta {
 	String titular;

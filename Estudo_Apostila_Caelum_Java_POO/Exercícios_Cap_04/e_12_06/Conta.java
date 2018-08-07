@@ -1,4 +1,4 @@
-package Cap04_12_09;
+package e_12_06;
 
 public class Conta {
 	String titular;
@@ -7,12 +7,11 @@ public class Conta {
 	double saldo;
 	Data dataAbertura;
 	
-	String impressaoConta() {
+	String recuperaDadosParaImpressao() {
 		String dados = "Titular = " + this.titular + ".\n";
 		dados += "Número = " + this.numero + ".\n";
 		dados += "Agência = " + this.agencia + ".\n";
 		dados += "Saldo = " + this.saldo + ".\n";
-		dados += this.dataAbertura.formatada();
 		return dados;
 	}
 }

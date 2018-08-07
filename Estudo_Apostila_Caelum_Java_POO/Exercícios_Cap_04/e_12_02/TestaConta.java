@@ -1,4 +1,4 @@
-package Cap04_12_03;
+package e_12_02;
 
 public class TestaConta {
 	public static void main(String[] args) {
@@ -8,6 +8,9 @@ public class TestaConta {
 		c1.agencia = "45678-9";
 		c1.saldo = 50.0;
 		c1.dataAbertura = "04/05/2015";
+		c1.deposita(100.0);
+		System.out.println("Rendimento Mensal da conta do " + c1.titular + " é igual a "
+				+ c1.calculaRendimento() + ".\n");
 		
 		
 		Conta c2 = new Conta();
@@ -16,6 +19,10 @@ public class TestaConta {
 		c2.agencia = "45678-9";
 		c2.saldo = 500.0;
 		c2.dataAbertura = "10/05/2015";
+		c2.deposita(500);
+		c2.saca(900);
+		System.out.println("Rendimento Mensal da conta do " + c2.titular + " é igual a "
+				+ c2.calculaRendimento() + ".\n");
 		
 		
 		Conta c3 = new Conta();
@@ -24,10 +31,6 @@ public class TestaConta {
 		c3.agencia = "45678-9";
 		c3.saldo = 250.0;
 		c3.dataAbertura = "20/05/2015";
-		
-		System.out.println(c1.recuperaDadosParaImpressao());
-		System.out.println(c2.recuperaDadosParaImpressao());
-		System.out.println(c3.recuperaDadosParaImpressao());
+		c3.deposita(-100);
 	}
-
 }

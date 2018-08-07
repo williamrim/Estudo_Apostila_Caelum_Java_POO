@@ -1,4 +1,4 @@
-package Cap04_12_07;
+package e_12_09;
 
 public class TestaConta {
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class TestaConta {
 		data.ano = 18;
 		c1.dataAbertura = data;
 		
-		System.out.println(c1.impressao());
+		System.out.println(c1.impressaoConta());
 	}
 
 }

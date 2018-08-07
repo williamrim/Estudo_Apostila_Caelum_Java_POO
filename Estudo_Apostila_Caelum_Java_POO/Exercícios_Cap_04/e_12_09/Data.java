@@ -1,4 +1,4 @@
-package Cap04_12_09;
+package e_12_09;
 
 public class Data {
 	int dia;
