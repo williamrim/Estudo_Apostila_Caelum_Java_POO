@@ -43,6 +43,7 @@ public class Conta {
 		dados += "Agência = " + this.agencia + ".\n";
 		dados += "Saldo = " + this.saldo + ".\n";
 		dados += "Data de abertura da conta = " + this.dataAbertura + ".\n";
+		dados += "O Rendimento desta conta é de: " + this.calculaRendimento() + ".\n";
 		return dados;
 	}
 	
