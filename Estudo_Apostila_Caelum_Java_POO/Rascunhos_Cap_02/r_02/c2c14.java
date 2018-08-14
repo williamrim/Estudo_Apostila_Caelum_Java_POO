@@ -1,4 +1,4 @@
-package c_02;
+package r_02;
 
 public class c2c14 {
 

@@ -1,4 +1,4 @@
-package c_04;
+package r_04;
 
 public class Motor {
 	int portencia;
