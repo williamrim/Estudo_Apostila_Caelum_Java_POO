@@ -7,10 +7,11 @@ public class TestaConta {
 		System.out.println("Existem " + c1.getIdentificador() + " contas abertas.");
 		
 		Conta c2 = new Conta();
+		System.out.println("Existem " + c2.getIdentificador() + " contas abertas.");
 		Conta c3 = new Conta();
+		System.out.println("Existem " + c3.getIdentificador() + " contas abertas.");
 		Conta c4 = new Conta();
-		
-		System.out.println("Existem " + c1.getIdentificador() + " contas abertas.");
+		System.out.println("Existem " + c4.getIdentificador() + " contas abertas.");
 		
 	}
 
