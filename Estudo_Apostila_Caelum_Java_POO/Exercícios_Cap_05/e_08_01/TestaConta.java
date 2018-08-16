@@ -5,7 +5,8 @@ public class TestaConta {
 		Conta c = new Conta();
 		c.a1 = 5;
 		Conta.a2 = 6;
-		c.a3 = 2; // erro pois não é possível acessar atributo "private".
+		// erro pois não é possível acessar atributo "private".
+		// c.a3 = 2;
 	}
 
 }
